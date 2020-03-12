@@ -1,0 +1,88 @@
+#fade1 { 
+	top:14%; left:90px;font-size: 14px;
+	height: auto;
+	line-height: 40px;
+	padding: 0 30px;
+	background: #8d0200 none repeat scroll 0 0;border: 1px solid #8f071b;border-radius: 6px;box-shadow: 0 2px 4px #444;position: absolute;
+	text-transform: capitalize;display:none;
+font-family: "MTCORSVA" !important;
+ font-size: 32px;
+}
+#fade2 { 
+	top:4%;width:440px;font-size: 14px;
+	height: auto;
+	line-height: 40px;
+	padding: 0 30px;
+	background: #8d0200 none repeat scroll 0 0;border: 1px solid #8f071b;border-radius: 6px;box-shadow: 0 2px 4px #444;color: #fff;position: absolute;
+	text-transform: capitalize; left: 0;
+	margin: 0 auto;
+	right: 0;display:none;
+font-family: "MTCORSVA" !important;
+ font-size: 32px;
+}
+#fade3{
+	top:14%;width:300px; right: 80px;font-size: 14px;
+	height: auto;
+	line-height: 40px;
+	padding: 0 30px;
+	background: #8d0200 none repeat scroll 0 0;border: 1px solid #8f071b;border-radius: 6px;box-shadow: 0 2px 4px #444;position: absolute;
+	text-transform: capitalize;display:none;
+font-family: "MTCORSVA" !important;
+ font-size: 32px;
+}	
+
+.underline {
+ border-bottom: 2px solid;
+ }
+ 
+ video::-webkit-media-controls {
+    overflow: hidden !important
+}
+video::-webkit-media-controls-enclosure {
+    width: calc(100% + 32px);
+    margin-left: auto;
+}
+.message{
+border: 1px solid #8f071b;border-radius: 6px;box-shadow: 0 2px 4px #444;
+line-height: 34px;
+padding: 0 30px;
+margin-bottom:10px;
+}
+.error{
+color:#8D0200;
+font-size:12px !important;
+}
+
+.success {
+color:#8D0200;
+font-size:12px !important;
+}
+
+.req::before {
+  color: red;
+  content: "*";
+  float: right;
+  position: absolute;
+  z-index: 1;
+  right: 10px;
+  top: 10px;
+}
+.mtcorsvaText {
+   line-height: 0.7;
+    float: left;
+    font-family: "MTCORSVA";
+    font-size: 26px;
+    font-weight: 400;
+    position: relative;
+    width: auto;
+}
+button.btn-red1 {
+    background: #a20301 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 15px;
+    height: 40px;
+    line-height: 1.42587;
+    padding: 10px;
+}
